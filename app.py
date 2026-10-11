@@ -2,6 +2,8 @@ import json
 from pathlib import Path
 import streamlit as st
 from bird_details import render_bird_details
+from balcony_coach import render_balcony_coach
+
 
 st.set_page_config(
     page_title="Wingscape | Discover. Observe. Welcome.",
@@ -450,6 +452,35 @@ st.markdown(
             min-height: 0;
         }
     }
+
+    /* AI Balcony Coach Styling */
+    .coach-profile-summary {
+        background: var(--paper-light);
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--forest);
+        border-radius: 4px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-summary-title {
+        color: var(--clay);
+        font: 700 0.75rem/1.2 "Trebuchet MS", sans-serif;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    .profile-chip {
+        display: inline-block;
+        background: var(--sage);
+        color: var(--ink);
+        padding: 0.25rem 0.65rem;
+        border-radius: 3px;
+        font: 500 0.85rem/1.3 "Trebuchet MS", sans-serif;
+        margin: 0.2rem 0.3rem 0.2rem 0;
+        border: 1px solid var(--sage-deep);
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -493,8 +524,9 @@ def clear_search() -> None:
     """Clear bird search query in session state before widget instantiation."""
     st.session_state.bird_search_input = ""
 
-PAGES = ["Home", "Discover Birds"]
+PAGES = ["Home", "Discover Birds", "AI Balcony Coach"]
 current_index = PAGES.index(st.session_state.current_page) if st.session_state.current_page in PAGES else 0
+
 
 # Sidebar Navigation
 st.sidebar.markdown(
@@ -594,16 +626,26 @@ if st.session_state.current_page == "Home":
         unsafe_allow_html=True,
     )
 
-    # In-page shortcut to explore Discover Birds
+    # In-page shortcuts to explore features
     st.write("")
-    nav_col1, nav_col2 = st.columns([1, 2])
+    nav_col1, nav_col2, _ = st.columns([1, 1, 1])
     with nav_col1:
         st.button(
             "Explore Discover Birds →",
             key="btn_home_to_discover",
             on_click=navigate_to,
             args=("Discover Birds",),
+            use_container_width=True,
         )
+    with nav_col2:
+        st.button(
+            "Open AI Balcony Coach →",
+            key="btn_home_to_coach",
+            on_click=navigate_to,
+            args=("AI Balcony Coach",),
+            use_container_width=True,
+        )
+
 
     st.markdown(
         """
@@ -773,3 +815,10 @@ elif st.session_state.current_page == "Discover Birds":
         """,
         unsafe_allow_html=True,
     )
+
+
+# ==============================================================================
+# Page 3: AI Balcony Coach
+# ==============================================================================
+elif st.session_state.current_page == "AI Balcony Coach":
+    render_balcony_coach(navigate_to)
