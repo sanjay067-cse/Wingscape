@@ -1,0 +1,170 @@
+[
+  {
+    "id": "house-sparrow",
+    "common_name": "House Sparrow",
+    "scientific_name": "Passer domesticus",
+    "description": "A small, chunky songbird closely associated with human settlements for thousands of years. Once ubiquitous in Indian cities, their populations have declined in modern urban centers due to changes in building architecture and insect availability.",
+    "identifying_characteristics": [
+      "Males feature a grey crown, black bib extending down the chest, and rich chestnut mantle.",
+      "Females and juveniles display sandy buff-brown plumage with muted grey-brown striping on their backs.",
+      "Vocalizations are brisk, cheerful, repetitive chirps and chattering calls."
+    ],
+    "habitat": "Urban residential neighborhoods, apartment balconies, older buildings with eaves and crevices, grain markets, and suburban gardens.",
+    "observation_tip": "Place a shallow terracotta water dish and a small perch on your balcony; watch quietly from behind a curtain to avoid scaring them away.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_%2853532%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg",
+      "photographer": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Male House Sparrow (Passer domesticus) in Prospect Park, Brooklyn, New York."
+    }
+  },
+  {
+    "id": "common-myna",
+    "common_name": "Common Myna",
+    "scientific_name": "Acridotheres tristis",
+    "description": "An assertive, highly adaptable member of the starling family found extensively across India. Renowned for their intelligence, social dynamics, and extensive repertoire of whistles, squeaks, and mimics.",
+    "identifying_characteristics": [
+      "Rich vinous-brown body with a glossy black hood and head.",
+      "Distinct bare yellow skin patch behind each eye, with bright yellow bill and sturdy legs.",
+      "Prominent white wing patches that flash conspicuously during flight."
+    ],
+    "habitat": "City streets, parks, residential lawns, rooftop parapets, market areas, and agricultural edges.",
+    "observation_tip": "Observe their energetic ground foraging and comedic head-bobbing displays during early morning without feeding them salted or processed leftovers.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Acridotheres_tristis00.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acridotheres_tristis00.jpg",
+      "photographer": "Gerrie van Vuuren",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Common Myna (Acridotheres tristis) showing characteristic brown plumage, yellow eye patch, bill, and feet."
+    }
+  },
+  {
+    "id": "rock-pigeon",
+    "common_name": "Rock Pigeon",
+    "scientific_name": "Columba livia",
+    "description": "An exceptionally common and resilient urban resident originally adapted to coastal cliffs. They nest with ease on building ledges, AC outdoor units, and balconies in high-rise buildings.",
+    "identifying_characteristics": [
+      "Predominantly blue-grey plumage with an iridescent green and amethyst-purple sheen across the neck.",
+      "Two distinct dark black bars across the folded inner wings.",
+      "Orange-red iris, dark grey cere at the bill base, and reddish-pink feet."
+    ],
+    "habitat": "Building ledges, window sills, AC compressor ledges, monuments, urban plazas, and bridge girders.",
+    "observation_tip": "Watch their flight acrobatics and bowing courtship displays from behind balcony glass to avoid startling roosting pairs or inhaling fine dander.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Columba_livia_Luc_Viatour.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Columba_livia_Luc_Viatour.jpg",
+      "photographer": "Luc Viatour",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "Rock Pigeon (Columba livia) in flight/perch showing dual wing bars and neck sheen."
+    }
+  },
+  {
+    "id": "rose-ringed-parakeet",
+    "common_name": "Rose-ringed Parakeet",
+    "scientific_name": "Psittacula krameri",
+    "description": "A slender, gregarious green parrot known for its fast direct flight, raucous calls, and acrobatic feeding style. They roost communally in large canopy trees across Indian cities.",
+    "identifying_characteristics": [
+      "Vivid emerald-green plumage with a long, tapering graduated tail.",
+      "Strong hooked red beak with a black lower mandible tip.",
+      "Adult males sport a distinct narrow neck collar: black on the throat and rose-pink along the nape (absent in females and immatures)."
+    ],
+    "habitat": "Tree-lined urban avenues, suburban gardens, parks, older campuses with mature neem or banyan trees, and balcony planters with sunflower seeds or guava.",
+    "observation_tip": "Scan tree canopies during early morning and late afternoon when their high-pitched 'kee-ak' shrieks announce their arrival, observing with binoculars rather than trying to approach them.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Rose-ringed_parakeet_%28Psittacula_krameri_borealis%29_male_Jaipur_2.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rose-ringed_parakeet_(Psittacula_krameri_borealis)_male_Jaipur_2.jpg",
+      "photographer": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Adult male Rose-ringed Parakeet (Psittacula krameri borealis) in Jaipur, Rajasthan, India."
+    }
+  },
+  {
+    "id": "red-vented-bulbul",
+    "common_name": "Red-vented Bulbul",
+    "scientific_name": "Pycnonotus cafer",
+    "description": "A cheerful and familiar garden bird recognizable by its friendly disposition, upright posture, and pleasant musical bubbling calls. A frequent visitor to city balconies with potted plants.",
+    "identifying_characteristics": [
+      "Sooty dark-brown plumage with a scaly scalloped pattern on the breast and back.",
+      "Slightly crested black head and a conspicuous white rump patch visible when taking off.",
+      "Bright crimson-red patch under the base of the tail (the vent)."
+    ],
+    "habitat": "Home gardens, potted balconies with flowering shrubs, secondary scrub, city parks, and orchard fringes.",
+    "observation_tip": "Grow balcony plants with berries or sweet nectar (such as Hibiscus or Murraya) to welcome them; keep stillness when they perch on railing pots.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Red-vented_bulbul_-_Jamnagar_2023-11-13.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Red-vented_bulbul_-_Jamnagar_2023-11-13.jpg",
+      "photographer": "Mahmadanesh",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "description": "Adult Red-vented Bulbul (Pycnonotus cafer) in Jamnagar, Gujarat, India."
+    }
+  },
+  {
+    "id": "oriental-magpie-robin",
+    "common_name": "Oriental Magpie-Robin",
+    "scientific_name": "Copsychus saularis",
+    "description": "A charismatic songbird celebrated across the subcontinent for its rich, melodious dawn song. Easily recognized by its bold pied pattern and habit of holding its tail cocked vertically.",
+    "identifying_characteristics": [
+      "Males feature glossy blue-black upperparts and throat with a pure white belly and prominent white wing stripe.",
+      "Females show a softer slate-grey or charcoal tone in place of the male's glossy black.",
+      "Long tail with white outer feathers, constantly held upright or flicked up and down."
+    ],
+    "habitat": "Quiet residential compounds, leafy gardens, urban parks, mangrove edges, and shaded shrubbery near low balconies.",
+    "observation_tip": "Step outside quietly just before sunrise when the male sings loudly from high exposed branches or lampposts to mark his territory.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Oriental_magpie-robin_%28Copsychus_saularis_ceylonensis%29_male.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oriental_magpie-robin_(Copsychus_saularis_ceylonensis)_male.jpg",
+      "photographer": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Adult male Oriental Magpie-Robin (Copsychus saularis) perched in wildlife sanctuary."
+    }
+  },
+  {
+    "id": "purple-sunbird",
+    "common_name": "Purple Sunbird",
+    "scientific_name": "Cinnyris asiaticus",
+    "description": "A tiny, hyperactive nectar specialist that hovers briefly before balcony flowers. They play an indispensable ecological role as urban pollinators.",
+    "identifying_characteristics": [
+      "Breeding males gleam with metallic purple-blue and greenish iridescence over a dark body, with bright yellow-and-red pectoral tufts visible during courtship.",
+      "Females and non-breeding males (eclipse plumage) are olive-brown above and pale yellow below.",
+      "Slender, down-curved bill built specifically for probing tubular flower calyxes."
+    ],
+    "habitat": "Urban gardens, flowering balcony climbers, hedge rows, arid scrub, and flowering trees like Gulmohar and Coral Tree.",
+    "observation_tip": "Keep potted flowering climbers like Bougainvillea or Rangoon Creeper on your balcony; observe their rapid visits from a standstill without blocking access to blossoms.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Purple_Sunbird_Male%2C_Bangalore%2C_India.jpeg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Purple_Sunbird_Male,_Bangalore,_India.jpeg",
+      "photographer": "Nicholas Iyadurai",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "description": "Male Purple Sunbird (Cinnyris asiaticus) in breeding plumage in Bangalore, India."
+    }
+  },
+  {
+    "id": "indian-peafowl",
+    "common_name": "Indian Peafowl",
+    "scientific_name": "Pavo cristatus",
+    "description": "The national bird of India, celebrated worldwide for its breathtaking colors, royal crest, and resonant trumpet calls echoing across urban boundaries and forested campuses.",
+    "identifying_characteristics": [
+      "Males (peacocks) feature a glistening cobalt-blue neck and breast, delicate wire-like fan crest, and an extravagant train of iridescent eye-patterned ocelli.",
+      "Females (peahens) are mottled brown and buff with metallic green lower neck highlights and lack the long train.",
+      "Loud, far-carrying trumpeting 'may-awe' call, especially frequent before monsoon rains."
+    ],
+    "habitat": "Open deciduous scrub, periphery of urban centers, expansive wooded university campuses, royal estates, and riverine farmland.",
+    "observation_tip": "Keep a respectful distance of at least 15 to 20 meters; never crowd, chase, or attempt to corner them for photos, allowing them undisturbed foraging.",
+    "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Peacock_on_tree_%2852077240794%29.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Peacock_on_tree_(52077240794).jpg",
+      "photographer": "Kandukuru Nagarjun",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "description": "Indian Peafowl (Pavo cristatus) perched on tree branches in Kabini, Karnataka, India."
+    }
+  }
+]
