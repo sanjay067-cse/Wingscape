@@ -3,6 +3,8 @@ from pathlib import Path
 import streamlit as st
 from bird_details import render_bird_details
 from balcony_coach import render_balcony_coach
+from sightings import render_sightings
+
 
 
 st.set_page_config(
@@ -481,6 +483,67 @@ st.markdown(
         margin: 0.2rem 0.3rem 0.2rem 0;
         border: 1px solid var(--sage-deep);
     }
+
+    /* My Sightings Journal Styling */
+    .sighting-card {
+        background: var(--paper-light);
+        border: 1px solid var(--line);
+        border-left: 4px solid var(--forest);
+        border-radius: 4px;
+        padding: 1.15rem 1.35rem;
+        margin-bottom: 0.95rem;
+    }
+
+    .sighting-card-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.4rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .sighting-date-tag {
+        color: var(--clay);
+        font: 700 0.78rem/1.2 "Trebuchet MS", sans-serif;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    }
+
+    .sighting-count-chip {
+        display: inline-flex;
+        align-items: center;
+        background: var(--sage);
+        color: var(--forest);
+        padding: 0.2rem 0.6rem;
+        border-radius: 3px;
+        font: 600 0.82rem/1.2 "Trebuchet MS", sans-serif;
+        border: 1px solid var(--sage-deep);
+    }
+
+    .sighting-species-name {
+        margin: 0;
+        color: var(--forest);
+        font-family: Georgia, serif;
+        font-size: 1.35rem;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    .sighting-scientific-name {
+        color: var(--clay);
+        font-style: italic;
+        font-size: 0.92rem;
+        font-family: Georgia, serif;
+    }
+
+    .sighting-notes-text {
+        margin: 0.65rem 0 0;
+        color: var(--body);
+        font: 0.95rem/1.6 "Trebuchet MS", sans-serif;
+        padding-top: 0.5rem;
+        border-top: 1px dashed var(--line);
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -524,8 +587,9 @@ def clear_search() -> None:
     """Clear bird search query in session state before widget instantiation."""
     st.session_state.bird_search_input = ""
 
-PAGES = ["Home", "Discover Birds", "AI Balcony Coach"]
+PAGES = ["Home", "Discover Birds", "AI Balcony Coach", "My Sightings"]
 current_index = PAGES.index(st.session_state.current_page) if st.session_state.current_page in PAGES else 0
+
 
 
 # Sidebar Navigation
@@ -628,7 +692,7 @@ if st.session_state.current_page == "Home":
 
     # In-page shortcuts to explore features
     st.write("")
-    nav_col1, nav_col2, _ = st.columns([1, 1, 1])
+    nav_col1, nav_col2, nav_col3 = st.columns([1, 1, 1])
     with nav_col1:
         st.button(
             "Explore Discover Birds →",
@@ -645,6 +709,15 @@ if st.session_state.current_page == "Home":
             args=("AI Balcony Coach",),
             use_container_width=True,
         )
+    with nav_col3:
+        st.button(
+            "Open My Sightings →",
+            key="btn_home_to_sightings",
+            on_click=navigate_to,
+            args=("My Sightings",),
+            use_container_width=True,
+        )
+
 
 
     st.markdown(
@@ -822,3 +895,11 @@ elif st.session_state.current_page == "Discover Birds":
 # ==============================================================================
 elif st.session_state.current_page == "AI Balcony Coach":
     render_balcony_coach(navigate_to)
+
+
+# ==============================================================================
+# Page 4: My Sightings
+# ==============================================================================
+elif st.session_state.current_page == "My Sightings":
+    birds = load_bird_data()
+    render_sightings(navigate_to, birds)
